@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(img/fantasyart-1634507608304-2036.jpg);
+    color:white;
+}
+
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+.textlogo{
+    color: white;
+    margin: 0;
+    font-size:50px;
+    display: inline-block;
+}
+
+form > button{
+    cursor: pointer;
+    border: 0.5px solid black;
+}
+input[type=text]{
+    border:0.5px solid black;
+}
+
+h2 > span{
+    border: 3px solid #006600;
+    border-radius: 50%;
+    background-color:rgba(153,255,51, 0.5);
+    padding:5px;
+}
+
+/*Usiamo il fatto che possiamo assegnare + classi allo stesso blocco*/
+
+.email{
+    border: 0.5px solid black;
+}
+
+.email.unread{
+    background-color:rgba(192,192,192,0.8);
+}
+
+.email.read{
+    background-color:rgba(255,255,255,0.8);
+}
+
+.subject, .preview{
+    display: inline-block;
+    color:black;
+}
+
+.subject{
+    width: 30%;
+}
+
+.preview{
+    width: 68%;
+}
+
+/*aggiungiamo i puntini di sospensione prima*/
+.preview:after{
+	content:"...";
+}
+
+.star{
+    color:orange;
+}
+
+/*inseriamo la stellina qui*/
+
+.star:after{
+		content:"\2605";
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+footer > span{
+    font-size: 30px;
+}
