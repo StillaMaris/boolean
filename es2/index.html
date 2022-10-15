@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Primo Es. Form online</title>
+  </head>
+  <body>
+    <!-- Tutti gli input che voglione essere inviati devono essee incapsulati in un <form> </form>. Solo gli input che sono all'interno vengono inviati all'url definito in ACTION, dove verranno poi gestiti. -->
+    <form action="indirizzo_a_cui_vengono_inviati_i_dati" >
+      <!-- Input text -->
+      <div>
+        <input type="text" name="firstName" placeholder="Inserisci nome">
+        <input type="text" name="lastName" placeholder="Inserisci cognome">
+        <input type="email" name="email" placeholder="Insert your e-mail">
+        <select name="documento">
+          <option value="ci">Carta id</option>
+          <option value="pass">Passaporto</option>
+          <option value="visto">Visto</option>
+        </select>
+      </div>
+        <!-- Il value è il valore di quella input non è quel "inserisci il tuo nome", infatti se scrivo sopra non viene cancellato. Questo è il placeholder--->
+        <!-- Il name è il nome/etichetta di quel valore. Simile a python quando abbiamo le directoy  -->
+
+      <div>
+        <textarea name="" rows="8" cols="80" placeholder="Insert text"></textarea>
+      </div>
+      <input type="submit" name="" value="spedisci">
+
+    </form>
+    <!-- Finché non abbiamo un BACKEND non possiam inviare i dati e quindi il tasto form ha poco senso -->
+  </body>
+</html>
