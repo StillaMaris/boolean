@@ -1,0 +1,34 @@
+/* SELETTORE{
+    proprietà:valore;
+    proprietà:valore;
+} */
+
+header{
+    background-color:rgb(250,241,240);
+    font-family:cursive;
+
+}
+
+footer{
+    background-color:rgb(250,241,240);
+}
+
+.pinkline{
+    border-top: 1px solid rgb(255,0,127);
+}
+
+
+.section-title{
+    color:rgb(204,0,122);
+    font-style: italic;
+    font-family:cursive;
+
+}
+
+h3{
+    font-style: oblique;
+    }
+
+main,  nav{
+    padding: 10px;
+}
