@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Impact;
+}
+
+.city{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    border: 1px solid black;
+}
+#seoul{
+    background-image: url('img/seoul-megacity-crescita-sostenibile.jpg');
+  }
+
+
+#kyoto{
+    background-image: url('img/kyoto-kyoto-color-guide-226822.jpg');
+  }
+
+#scottland{
+    background-image: url('img/HeroHighlands\ \ Islands\ of\ ScotlandIsle\ of\ Skye345330161.jpg');
+  } 
+  
+#oslo{
+    background-image: url('img/oslo.jpg.webp');
+  }
+
+.name{
+    font-size:50px;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    
+  }
+
+  .layover{
+    width:100%;
+    height:100%;
+    background-color: rgba(255,255,255,0.3);
+  }
+
+
