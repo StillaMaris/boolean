@@ -1,0 +1,89 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+
+body{
+  background-color:#f3e9eb;
+  width:100vw;
+  height:100vh;
+}
+
+.row div{
+  display:inline-block;
+  position: relative;
+}
+
+.row{
+  margin:auto;
+  text-align:center;
+}
+
+
+
+.item{
+  background-color:#e7d3d7;
+  width:300px;
+  margin:auto;
+  
+  
+}
+
+
+.item > .price{
+    position: absolute;
+    top:0;
+    right:0;
+    line-height: 20px;
+}
+
+.good{
+    position: absolute;
+    bottom:180px;
+    right:50px;
+    background-color: red;
+    width: 40px;
+    height: 20px;
+}
+
+
+.super{
+    position: absolute;
+    bottom:180px;
+    right:50px;
+    background-color: green;
+    width: 40px;
+    height: 20px;
+
+}
+
+.wishlist{
+    width: 100%;
+    color: red;
+    font-size: 25px;
+    position: absolute;
+    bottom: 0px;
+    visibility: hidden;
+
+}
+
+.item:hover .wishlist{
+    visibility: visible;
+}
+
+/**
+.hide{
+    display: none;
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+
+
+
+}
+
+.row1:hover .hide{
+    display: inline-block;
+}
