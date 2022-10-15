@@ -1,0 +1,75 @@
+/*
+*{
+    box-sizing: border-box;
+} */
+body{
+    background-image: url("MaterialeEsercizioLim/background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body >div{
+    width: 80%;
+    margin: auto;
+    border: 50px solid transparent;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+header{
+    color:#00EC00;
+    text-align:center;
+    font-family: 'Exo', sans-serif;
+}
+.logo{
+    width:200px;
+}
+nav{
+    text-align:center;
+    background-color:#00EC00;
+    padding: 10px;
+}
+
+nav input[type=submit]{
+    border: 1px solid black;
+    background-color: #EFEFEF;
+    cursor: pointer;
+}
+
+main{
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+section  label:before{
+    content: 'Monopattino';
+}
+
+
+.indirizzo:before{
+    content: '\21A6  Via';
+}
+
+.indirizzo:after{
+    content: 'metri da te';
+}
+
+.stato {
+    border-radius: 10px;
+    border: 2px solid transparent;
+    height: 30px;
+}
+
+.stato.green{
+    background-color:#00D01E;
+    width: 70%;
+}
+
+.stato.red{
+    background-color:#C21F33;
+    width:20%;
+}
+
+.stato.yellow{
+    background-color:#FAB043;
+    width:45%;
+}
